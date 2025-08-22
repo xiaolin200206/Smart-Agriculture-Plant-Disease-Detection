@@ -68,3 +68,5 @@ Training Time: about 2 hours on GPU
 ✅ Collect local datasets for better generalization
 
 🔜 Deploy to AWS (EC2 + S3)
+
+Download link:https://drive.google.com/file/d/1VKVLtOiuy8XgROLky_WoevOwEJudC3zw/view?usp=drive_link
