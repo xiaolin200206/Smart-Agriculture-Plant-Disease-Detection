@@ -27,9 +27,7 @@ Framework: PyTorch
  ┣ 📂 app/                # Flask or Streamlit app
  ┣ 📄 requirements.txt    # dependencies
  ┣ 📄 README.md           # project documentation
- ┣ 📄 LICENSE             # license file
- ┗ 📄 .gitignore          # ignore unnecessary files
-
+ 
 ⚙️ Installation
 # Clone the repository
 git clone https://github.com/yourusername/plant-disease-detection.git
@@ -55,11 +53,11 @@ streamlit run app/app.py
 
 📊 Results
 
-Accuracy: ~XX% (fill in your result)
+Accuracy: 99%
 
-Model: ResNet (pretrained on ImageNet, fine-tuned)
+Model: ResNet50 (pretrained on ImageNet, fine-tuned)
 
-Training Time: XX hours on GPU
+Training Time: about 2 hours on GPU
 
 📌 Future Work
 
