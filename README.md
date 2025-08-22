@@ -58,6 +58,8 @@ Accuracy: 99%
 Model: ResNet50 (pretrained on ImageNet, fine-tuned)
 
 Training Time: about 2 hours on GPU
+![training curve](C:\Users\林鼎山\Desktop\WhatsApp Image 2025-08-03 at 02.55.46_e32d0ea9.jpg)
+![deploy_result](C:\Users\林鼎山\Desktop\WhatsApp Image 2025-08-23 at 05.45.45_c3a5abc2.jpg)
 
 📌 Future Work
 
