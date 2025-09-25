@@ -1,0 +1,235 @@
+{
+    "Tomato___Late_blight": {
+        "Description": "Late blight is a plant disease that affects a variety of Solanum spp., including eggplant, pepper, nightshade weeds, and petunia. However, it is most infamously known for its destruction of potato, S. tuberosum, and tomato, S. lycopersicum.",
+        "treatment_and_control": "Various fungicides are registered for use in controlling tomato late blight. Some categories of fungicides are appropriate in conventional systems, and others are appropriate in organic systems. For either production system type, it is critical to apply fungicides before initial infection for best control of late blight.",
+        "prevention": "Strategies for managing late blight in tomato include planting resistant cultivars, eliminating volunteers (tomato plants that have re-seeded from the previous year’s crop), spacing plants to increase airflow and reduce humidity, and applying preventive and effective fungicides to avoid infection.",
+        "who_to_contact": "Local agricultural extension officers or crop protection specialists for tailored fungicide recommendations."
+    },
+    "Tomato___healthy": {
+        "Description": "Excellent! Your grape plant appears to be healthy and thriving. A healthy grape plant typically exhibits vibrant green leaves that are free of spots or discoloration, sturdy stems, and may show signs of vigorous growth like flowers or developing fruit.",
+        "treatment_and_control": "No treatment is required as the plant shows no signs of disease. The best 'control' is proactive care to maintain its excellent condition. Continue monitoring regularly for any changes.",
+        "prevention": "To prevent future diseases and maintain plant vigor, follow these best practices: 1. Water consistently at the base of the plant to keep the leaves dry. 2. Ensure the plant receives at least 6-8 hours of direct sunlight daily. 3. Maintain good air circulation around the plant to discourage fungal growth. 4. Provide a balanced fertilizer suitable for tomatoes as needed. 5. Regularly inspect leaves and stems for early signs of common pests.",
+        "who_to_contact": "For general gardening tips, advice on fertilization schedules, or questions about plant care in your specific region, your local nursery, garden center, or agricultural extension office are excellent resources for maintaining a healthy garden."
+    },
+    "Grape___healthy": {
+        "Description": "Excellent! Your grape plant appears to be healthy and thriving. A healthy tomato plant typically exhibits vibrant green leaves that are free of spots or discoloration, sturdy stems, and may show signs of vigorous growth like flowers or developing fruit.",
+        "treatment_and_control": "No treatment is required as the plant shows no signs of disease. The best 'control' is proactive care to maintain its excellent condition. Continue monitoring regularly for any changes.",
+        "prevention": "To prevent future diseases and maintain plant vigor, follow these best practices: 1. Water consistently at the base of the plant to keep the leaves dry. 2. Ensure the plant receives at least 6-8 hours of direct sunlight daily. 3. Maintain good air circulation around the plant to discourage fungal growth. 4. Provide a balanced fertilizer suitable for tomatoes as needed. 5. Regularly inspect leaves and stems for early signs of common pests.",
+        "Who_to_contact": "For general gardening tips, advice on fertilization schedules, or questions about plant care in your specific region, your local nursery, garden center, or agricultural extension office are excellent resources for maintaining a healthy garden."
+    },
+    "Orange__Haunglongbing(Citrus_greening)": {
+        "Description": "Huanglongbing (HLB) is a major disease of citrus that has caused catastrophic damage to citrus trees worldwide. The disease causes reduced fruit quality and yield, tree decline, and eventual tree death. ",
+        "treatment_and_control": "CRITICAL: There is currently no cure for HLB. The primary and mandatory control strategy is to remove and destroy infected trees as soon as they are identified to prevent further spread. It is also crucial to control the insect that spreads the disease, the Asian citrus psyllid, through targeted insecticide applications.",
+        "prevention": "The most effective prevention is to use certified disease-free trees from reputable nurseries for new plantings. Aggressively control the Asian citrus psyllid population in your grove or garden. Regularly scout for and test suspicious-looking trees to enable early detection and removal. Do not move citrus plants or plant materials out of quarantine areas.",
+        "who_to_contact": "Due to the severity of this disease, it is critical to contact your local agricultural extension office or state department of agriculture immediately if you suspect your tree is infected. They can provide testing services and guidance on proper tree removal."
+    },
+    "Soybean___healthy": {
+        "Description": "Excellent! Your soybean plant appears to be healthy and thriving. A healthy soybean plant typically exhibits vibrant green leaves that are free of spots or discoloration, sturdy stems, and may show signs of vigorous growth like flowers or developing fruit.",
+        "treatment_and_control": "No treatment is required as the plant shows no signs of disease. The best 'control' is proactive care to maintain its excellent condition. Continue monitoring regularly for any changes.",
+        "prevention": "To prevent future issues and maintain plant health, follow these best practices: 1. Ensure the plant is in a location with full sun. 2. Water consistently, especially during pod-fill, but avoid waterlogged soil. 3. As a legume, soybeans can fix nitrogen, so use a low-nitrogen fertilizer if needed. 4. Ensure good air circulation to prevent fungal diseases. 5. Regularly monitor for common pests like soybean aphids or bean leaf beetles.",
+        "who_to_contact": "For general farming or gardening tips, advice on soil health, or questions about plant care in your region, your local nursery, garden center, or agricultural extension office are excellent resources."
+    },
+    "Squash___Powdery_mildew": {
+        "Description": "Powdery Mildew is a common fungal disease that affects a wide variety of plants, including squash. It is easily identified by the white, powdery spots or patches that appear on the upper surfaces of leaves, stems, and sometimes fruit. The disease thrives in conditions with high humidity and moderate temperatures.",
+        "treatment_and_control": "Horticultural oils, neem oil, and fungicides containing sulfur or potassium bicarbonate are effective treatments. Apply them according to label directions, ensuring thorough coverage of the plant. Prune or remove heavily infected leaves to reduce the spread of the fungus.",
+        "prevention": "Planting resistant squash varieties is the most effective prevention method. Ensure good air circulation by providing adequate spacing between plants. Water the soil directly at the base of the plant to keep foliage dry. Avoid excessive nitrogen fertilization, which encourages susceptible new growth.",
+        "who_to_contact": "For recommendations on resistant varieties and appropriate fungicides for your area, consult your local nursery or agricultural extension office."
+    },
+    "Potato___healthy": {
+        "Description": "Excellent! Your soybean plant appears to be healthy and thriving. A healthy soybean plant typically exhibits vibrant green leaves that are free of spots or discoloration, sturdy stems, and may show signs of vigorous growth like flowers or developing fruit.",
+        "treatment_and_control": "No treatment is required as the plant shows no signs of disease. The best 'control' is proactive care to maintain its excellent condition. Continue monitoring regularly for any changes.",
+        "prevention": "To prevent future issues and maintain plant health, follow these best practices: 1. Ensure the plant is in a location with full sun. 2. Water consistently, especially during pod-fill, but avoid waterlogged soil. 3. As a legume, soybeans can fix nitrogen, so use a low-nitrogen fertilizer if needed. 4. Ensure good air circulation to prevent fungal diseases. 5. Regularly monitor for common pests like soybean aphids or bean leaf beetles.",
+        "who_to_contact": "For general farming or gardening tips, advice on soil health, or questions about plant care in your region, your local nursery, garden center, or agricultural extension office are excellent resources."
+    },
+    "Corn_(maize)_Northern_Leaf_Blight": {
+        "Description": "Northern Leaf Blight (NLB) is a fungal disease in corn caused by the pathogen Exserohilum turcicum. It thrives in high humidity and moderate temperatures. Symptoms are characterized by long, elliptical, grayish-green or tan lesions on the leaves.",
+        "treatment_and_control": "If disease is present, especially on susceptible hybrids, fungicide applications can be effective to protect the ear leaf and above. Consult with a specialist for appropriate timing and product selection based on disease pressure.",
+        "prevention": "The primary method of prevention is planting resistant corn hybrids. Crop rotation and tillage to bury infected crop residue can also reduce the survival of the fungus for the next season.",
+        "who_to_contact": "For hybrid selection and specific fungicide recommendations, contact your local agricultural extension office or a certified crop advisor."
+    },
+    "Tomato___Early_blight": {
+        "Description": "Early Blight is a common fungal disease of tomatoes and potatoes caused by the pathogen Alternaria solani. It is characterized by dark brown to black spots with concentric rings, resembling a target or 'bull's-eye,' primarily on lower, older leaves. Lesions can also appear on stems and fruit.",
+        "treatment_and_control": "Fungicides containing chlorothalonil or copper are effective in controlling the disease. Start applications when symptoms first appear and repeat every 7-10 days, following label instructions. Remove and destroy infected lower leaves to slow the spread.",
+        "prevention": "Practice crop rotation, avoiding planting tomatoes or potatoes in the same spot for at least two years. Use certified disease-free seeds and plants. Mulch around the base of plants to reduce soil splash. Stake or cage tomato plants to improve air circulation and keep them off the ground.",
+        "who_to_contact": "For a detailed spray schedule and information on resistant tomato varieties, it is best to contact your local agricultural extension office."
+    },
+    "Tomato___Septoria_leaf_spot": {
+        "Description": "Septoria Leaf Spot is a fungal disease caused by Septoria lycopersici, and it is one of the most common tomato leaf diseases. It appears as numerous small, circular spots with dark brown borders and lighter gray or tan centers on the lower leaves. Small black dots, which are the fungal fruiting bodies, may be visible in the center of the spots.",
+        "treatment_and_control": "Fungicides containing copper or chlorothalonil can effectively manage the disease. It is important to begin spraying as soon as symptoms are noticed and to ensure thorough coverage of the plant. Remove and destroy infected leaves to reduce the source of the fungus.",
+        "prevention": "Improve air circulation by staking plants and practicing good weed control. Water at the base of the plant to avoid wetting the leaves. Use mulch to create a barrier between the soil and the plant. At the end of the season, remove and destroy all infected plant debris and practice crop rotation.",
+        "who_to_contact": "For fungicide recommendations and a comprehensive disease management plan, consult with your local agricultural extension service."
+    },
+    "Corn_(maize)_Cercospora_leaf_spot": {
+        "Description": "Gray Leaf Spot (GLS) is a fungal disease caused by Cercospora zeae-maydis. It typically appears as small, rectangular, tan to brown lesions on the leaves, which are often restricted by the leaf veins. It thrives in warm, humid conditions.",
+        "treatment_and_control": "Fungicide applications can be effective, particularly when applied between the tasseling and early silking stages. Timeliness is critical for successful control in susceptible hybrids.",
+        "prevention": "Use tolerant or resistant corn hybrids. Practice crop rotation with non-host crops like soybeans or alfalfa. Manage crop residue with tillage where feasible to reduce fungal inoculum.",
+        "who_to_contact": "For advice on resistant hybrids and fungicide application strategies, consult your local agricultural extension office or a certified crop advisor."
+    },
+    "Strawberry___Leaf_scorch": {
+        "Description": "Strawberry Leaf Scorch is a fungal disease caused by Diplocarpon earlianum. It appears as numerous small, irregular, purplish blotches on the upper leaf surface. These spots enlarge and merge, and the tissue between them can turn reddish-purple, giving a 'scorched' appearance.",
+        "treatment_and_control": "After harvest, mow and remove old leaves to reduce inoculum. Fungicides can be used, typically applied before bloom and after harvest to protect new foliage.",
+        "prevention": "Plant certified disease-free stock. Ensure good air circulation by managing plant density and weeds. Water at the base of the plants to keep foliage dry. Remove infected leaves and plant debris.",
+        "who_to_contact": "For fungicide recommendations and variety selection, contact your local nursery or agricultural extension office."
+    },
+    "Peach___healthy": {
+        "Description": "Excellent! Your peach tree appears to be healthy. A healthy peach tree shows vigorous growth, has green leaves free of spots or curling, and produces healthy buds and branches. Its bark should be intact without signs of oozing cankers.",
+        "treatment_and_control": "No treatment is required. To maintain this healthy state, continue with proactive care and regular monitoring for any signs of stress or disease.",
+        "prevention": "To keep your peach tree healthy: 1. Prune annually during dormancy to maintain an open 'vase' shape for good air circulation. 2. Apply a dormant oil spray to control overwintering pests. 3. Ensure it's planted in well-drained soil and receives full sun. 4. Maintain a regular fertilization and watering schedule.",
+        "who_to_contact": "For pruning guides and a spray schedule tailored to your region, your local nursery or agricultural extension office are the best resources."
+    },
+    "Apple___Apple_scab": {
+        "Description": "Apple Scab is a common fungal disease caused by Venturia inaequalis. It creates olive-green to brown spots on leaves, fruit, and twigs. Infected leaves may curl and fall prematurely, and fruit can become spotted, cracked, and deformed.",
+        "treatment_and_control": "Once symptoms appear, fungicide sprays containing active ingredients like captan or myclobutanil can manage the spread. Pruning to remove infected twigs can help.",
+        "prevention": "The most crucial prevention step is sanitation: rake and destroy all fallen leaves in autumn to remove the overwintering fungus. Plant resistant cultivars. Prune trees to ensure good air circulation and rapid drying of leaves.",
+        "who_to_contact": "For a customized spray schedule and advice on resistant varieties, consult your local agricultural extension office or a certified arborist."
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+        "Description": "Tomato Yellow Leaf Curl Virus (TYLCV) is a devastating viral disease transmitted by the silverleaf whitefly. There is no cure for infected plants. Symptoms include severe stunting of the plant, upward curling and yellowing of leaves, and significant reduction in fruit production.",
+        "treatment_and_control": "CRITICAL: There is no cure for TYLCV. Infected plants cannot be treated and must be removed and destroyed immediately to prevent the virus from spreading to other plants via whiteflies.",
+        "prevention": "Prevention focuses on controlling the whitefly vector. Use reflective mulches to repel whiteflies, install insect-proof nets, and apply appropriate insecticides. Remove weeds that can host the virus or whiteflies. Always use certified virus-free transplants.",
+        "who_to_contact": "If you suspect TYLCV, contact your local agricultural extension service immediately for positive identification and guidance on managing this serious disease."
+    },
+    "Tomato___Bacterial_spot": {
+        "Description": "Bacterial Spot is caused by several species of Xanthomonas bacteria. It affects leaves, stems, and fruit, appearing as small, water-soaked, dark spots. On fruit, the spots are slightly raised and scabby. The disease thrives in warm, wet conditions.",
+        "treatment_and_control": "Once established, it is very difficult to control. Sprays containing copper can help suppress the spread but will not cure the plant. They work best as a preventative measure. Avoid working with plants when they are wet.",
+        "prevention": "Plant certified disease-free seeds and transplants. Practice crop rotation, avoiding planting in the same area where peppers or tomatoes have been for at least one year. Mulch plants to reduce water splash. Promote good air circulation.",
+        "who_to_contact": "For information on resistant varieties and spray programs, consult your local agricultural extension office."
+    },
+    "Apple___Black_rot": {
+        "Description": "Black Rot, caused by the fungus Botryosphaeria obtusa, is a disease affecting apple trees. It can cause leaf spots ('frogeye leaf spot'), cankers on branches, and a firm, black rot on the fruit that often begins at the blossom end.",
+        "treatment_and_control": "Prune out and destroy cankered branches during dormancy. Remove and dispose of infected fruit (mummies) from the tree and the ground. Fungicide applications used for apple scab may also help control black rot.",
+        "prevention": "Good sanitation is key. Remove dead wood, cankers, and mummified fruit, as these are sources of the fungus. Proper pruning to promote air circulation and tree health is also critical.",
+        "who_to_contact": "For pruning advice and a comprehensive disease management plan, contact your local agricultural extension office or a certified arborist."
+    },
+    "Blueberry___healthy": {
+        "Description": "Great! Your blueberry plant appears healthy. Look for vibrant green leaves (or reddish in fall), strong new cane growth, and no signs of spots, wilting, or pests. Healthy plants will set flower buds for the next season's crop.",
+        "treatment_and_control": "No treatment is needed for a healthy plant. The goal is to maintain its condition through consistent, proper care.",
+        "prevention": "To keep blueberries healthy: 1. They require acidic soil (pH 4.5-5.5); amend your soil as needed. 2. Mulch with pine bark or needles to retain moisture and maintain acidity. 3. Prune out old, unproductive canes during dormancy. 4. Ensure consistent moisture, as they have shallow root systems.",
+        "who_to_contact": "For questions about soil testing, acidification, or pruning techniques, your local nursery or agricultural extension office can provide excellent advice."
+    },
+    "Cherry_(including_sour)_Powdery_mildew": {
+        "Description": "Cherry Powdery Mildew is a fungal disease caused by Podosphaera clandestina. It appears as a white, powdery coating on leaves and young shoots. Infected leaves can become curled and distorted, and fruit can develop rusty spots or patches.",
+        "treatment_and_control": "Fungicides, including sulfur, horticultural oils, or synthetic options, are effective. Applications should begin when symptoms first appear and be repeated according to the product label. Prune out heavily infected shoots.",
+        "prevention": "Prune trees to improve air circulation, allowing leaves to dry faster. Manage irrigation to avoid wetting foliage if possible. A preventative fungicide spray program may be necessary, especially in humid regions.",
+        "who_to_contact": "For a detailed spray schedule and product recommendations, consult your local agricultural extension office."
+    },
+    "Peach___Bacterial_spot": {
+        "Description": "Bacterial Spot on peaches, caused by Xanthomonas arboricola pv. pruni, affects leaves, twigs, and fruit. It causes purple or black spots on leaves that may fall out, leaving a 'shot-hole' appearance. On fruit, it creates pitted, cracked spots.",
+        "treatment_and_control": "Control is difficult once the disease is present. Copper sprays applied during dormancy can help reduce inoculum. Some bactericides can be used during the growing season, but their effectiveness may be limited.",
+        "prevention": "Planting resistant peach varieties is the most effective prevention strategy. Maintain tree vigor with proper fertilization and watering, as healthy trees are less susceptible. Avoid overhead irrigation.",
+        "who_to_contact": "For advice on resistant varieties suitable for your area, contact your local nursery or agricultural extension office."
+    },
+    "Apple___Cedar_apple_rust": {
+        "Description": "Cedar-Apple Rust is a fungal disease that requires both an apple or crabapple tree and a juniper or cedar tree to complete its life cycle. On apple trees, it causes bright yellow-orange spots on the leaves and, less commonly, on the fruit.",
+        "treatment_and_control": "Once spots are visible on apple leaves, it is too late to treat for the current season. Fungicide sprays must be applied preventatively.",
+        "prevention": "The best prevention is to remove nearby juniper and cedar trees, the alternate hosts, though this is often not practical. Plant rust-resistant apple varieties. If needed, apply preventative fungicides starting at bud break and continuing through the period of rust spore release.",
+        "who_to_contact": "For timing of fungicide applications and lists of resistant varieties, consult your local agricultural extension service."
+    },
+    "Tomato___Target_Spot": {
+        "Description": "Target Spot is a fungal disease caused by Corynespora cassiicola. It creates small, water-soaked spots on leaves that enlarge into circular, tan to brown lesions with distinct concentric rings, resembling a target. It can also affect stems and fruit.",
+        "treatment_and_control": "Fungicides are the primary means of control. Rotate between different fungicide classes to prevent resistance. Remove and destroy heavily infected lower leaves to reduce disease pressure.",
+        "prevention": "Practice good sanitation by removing plant debris. Rotate crops, avoiding planting tomatoes in the same spot for 2-3 years. Stake or cage plants to improve air circulation. Avoid overhead watering.",
+        "who_to_contact": "For specific and effective fungicide recommendations, contact your local agricultural extension specialist."
+    },
+
+    "Pepper,_bell___healthy": {
+        "Description": "Excellent! Your bell pepper plant looks healthy and strong. Healthy plants have dark green leaves, a sturdy central stem, and are actively producing flowers or fruit. The leaves should be free from spots, yellowing, or curling.",
+        "treatment_and_control": "No treatment is necessary. The key is to continue providing optimal growing conditions to maintain its health.",
+        "prevention": "To keep bell peppers healthy: 1. Plant in rich, well-drained soil with consistent moisture. 2. Ensure at least 6-8 hours of full sun. 3. Mulch to retain soil moisture and suppress weeds. 4. Support the plant with a stake or cage to prevent branches from breaking under the weight of the fruit. 5. Monitor for common pests like aphids.",
+        "who_to_contact": "For tips on fertilization and dealing with issues like blossom-end rot, your local nursery or agricultural extension office can provide valuable advice."
+    },
+    "Grape__Leaf_blight(Isariopsis_Leaf_Spot)": {
+        "Description": "Isariopsis Leaf Spot, also known as Grape Leaf Blight, is a fungal disease. Symptoms appear in late summer as irregular, dark reddish-brown to black spots on leaves. The centers of these spots may turn lighter in color, and severely infected leaves can drop prematurely.",
+        "treatment_and_control": "This disease is often considered minor and specific chemical control is usually not necessary. Fungicide programs aimed at other, more serious grape diseases like Black Rot or Downy Mildew will typically control Isariopsis Leaf Spot as well.",
+        "prevention": "Promote good air circulation through proper pruning and canopy management. Rake and destroy fallen leaves in the autumn to reduce the amount of overwintering fungus. Ensure vines are not overly dense.",
+        "who_to_contact": "For a comprehensive grape disease management program, consult your local agricultural extension office or a viticulture specialist."
+    },
+    "Potato___Late_blight": {
+        "Description": "Late Blight is a devastating disease of potatoes and tomatoes caused by the water mold Phytophthora infestans. It appears as pale green, water-soaked spots on leaves that quickly enlarge to become dark, purplish-black lesions. A white fuzzy mold may appear on the underside of leaves in humid conditions.",
+        "treatment_and_control": "CRITICAL: Act immediately. Remove and destroy infected plants. Fungicide applications are essential for control, especially in humid or rainy weather. Alternate fungicides with different modes of action to prevent resistance.",
+        "prevention": "Plant certified disease-free seed potatoes. Destroy any volunteer potato plants from the previous year. Promote good air circulation and avoid overhead irrigation. Prophylactic fungicide sprays are often required in areas where late blight is common.",
+        "who_to_contact": "Contact your local agricultural extension office immediately for a diagnosis and an effective spray schedule, as this disease spreads extremely rapidly."
+
+    },
+    "Tomato___Tomato_mosaic_virus": {
+        "Description": "Tomato Mosaic Virus (ToMV) is a viral disease that causes a light and dark green mosaic pattern or mottling on the leaves. Plants can be stunted, and leaves may be curled and malformed. Fruit can be affected with yellow spots and internal browning.",
+        "treatment_and_control": "There is no cure for viral diseases. Infected plants should be removed immediately and destroyed to prevent spread. Do not compost them. Disinfect tools and hands after handling infected plants.",
+        "prevention": "Wash hands thoroughly before working with plants, as the virus can be spread by touch. Do not use tobacco products near tomato plants, as ToMV is related to Tobacco Mosaic Virus. Purchase certified disease-free seeds and plants. Control weeds.",
+        "who_to_contact": "For virus testing and management strategies, contact your local agricultural extension plant pathology lab."
+    },
+    "Strawberry___healthy": {
+        "Description": "Wonderful! Your strawberry patch looks healthy. Healthy plants have bright green leaves, produce runners, and develop flowers and fruit without blemishes. The plant crowns should be firm and free of rot.",
+        "treatment_and_control": "No treatment is necessary. Maintaining health is about continuing good cultural practices.",
+        "prevention": "To prevent common strawberry problems: 1. Plant in well-drained soil and use raised beds if possible. 2. Renovate the patch after harvest each year. 3. Use straw mulch to keep fruit off the soil and reduce rot. 4. Rotate your strawberry patch to a new location every 3-5 years to avoid soil-borne diseases.",
+        "who_to_contact": "For advice on renovation or choosing varieties for your area, your local nursery or agricultural extension office are great resources."
+    },
+    "Apple___healthy": {
+        "Description": "Excellent! Your apple tree appears to be in good health. A healthy tree will have a full canopy of green leaves, strong branch structure, and smooth bark without cankers. It should show signs of new growth each year.",
+        "treatment_and_control": "No treatment is needed. The focus is on proactive care to maintain vigor and prevent future issues.",
+        "prevention": "To maintain a healthy apple tree: 1. Prune annually during the dormant season to promote air circulation and a strong structure. 2. Implement a preventative spray schedule for common diseases like apple scab. 3. Regularly monitor for pests like codling moth. 4. Keep the base of the tree clear of weeds and debris.",
+        "who_to_contact": "For a detailed pruning and preventative spray guide tailored to your local climate, contact your agricultural extension office or a certified arborist."
+    },
+    "Grape___Black_rot": {
+        "Description": "Black Rot is a serious fungal disease of grapes caused by Guignardia bidwellii. It affects all green parts of the vine. On leaves, it creates small, reddish-brown circular spots. On fruit, it causes berries to turn black, shrivel, and become hard 'mummies'.",
+        "treatment_and_control": "A preventative fungicide spray program is essential for control in regions where Black Rot is common. Sprays must begin before bloom and continue through the growing season. Once fruit is infected, it cannot be cured.",
+        "prevention": "Sanitation is critical. Remove and destroy all mummified fruit clusters from the vines during dormant pruning. Rake and destroy fallen leaves and mummies on the ground. Improve air circulation through pruning and canopy management.",
+        "who_to_contact": "For an effective, timed spray schedule and fungicide recommendations, it is highly recommended to consult your local agricultural extension viticulture specialist."
+    },
+    "Potato___Early_blight": {
+        "Description": "Early Blight is a common fungal disease of potatoes and tomatoes caused by Alternaria solani. It is characterized by dark brown to black spots with a distinctive 'target spot' or 'bull's-eye' pattern of concentric rings on leaves.",
+        "treatment_and_control": "Fungicide sprays can effectively manage early blight. Applications should begin when the first symptoms appear. It is important to achieve good coverage of the plant foliage.",
+        "prevention": "Plant certified disease-free seed potatoes. Practice crop rotation. Maintain plant health with adequate nutrition and water, as stressed plants are more susceptible. Remove and destroy infected plant debris at the end of the season.",
+        "who_to_contact": "For fungicide recommendations and information on potato varieties with some tolerance, consult your local agricultural extension office."
+    },
+    "Cherry_(including_sour)___healthy": {
+        "Description": "Fantastic! Your cherry tree looks healthy. Signs of health include vibrant leaves, good annual growth on branches, and bark that is free from cracks or oozing cankers. The tree should produce blossoms and set fruit normally.",
+        "treatment_and_control": "No treatment is necessary. A healthy tree's best defense is its own vigor, which is maintained by good care.",
+        "prevention": "To keep your cherry tree healthy: 1. Ensure it's planted in well-drained soil with full sun. 2. Prune after fruiting in late summer to shape the tree and improve air flow. 3. Protect the trunk from sunscald and mechanical injury. 4. Monitor for common pests like aphids or cherry fruit flies.",
+        "who_to_contact": "For pruning techniques and pest management specific to cherries, your local agricultural extension office is an excellent resource."
+    },
+    "Corn_(maize)Common_rust": {
+        "Description": "Common Rust, caused by the fungus Puccinia sorghi, appears as small, cinnamon-brown, powdery pustules on both the upper and lower surfaces of corn leaves. It is favored by moderate temperatures and high humidity.",
+        "treatment_and_control": "In most cases, common rust does not cause significant yield loss in field corn and treatment is not economically justified. Sweet corn is more susceptible, and fungicides may be needed if the disease appears early.",
+        "prevention": "The most common and effective management strategy is the use of resistant corn hybrids. Most field corn hybrids have good resistance. For sweet corn, select resistant varieties whenever possible.",
+        "who_to_contact": "For information on resistant sweet corn varieties, contact your seed dealer or local agricultural extension office."
+    },
+    "Grape__Esca(Black_Measles)": {
+        "Description": "Esca, also known as Black Measles, is a complex and destructive fungal trunk disease of grapevines. Symptoms can include 'tiger-stripe' patterns of chlorosis on leaves, stunted shoot growth, and small, dark spots on grape berries that resemble measles.",
+        "treatment_and_control": "There is no definitive cure for Esca. Control involves major surgery on the vine trunk to remove rotted wood. This is a specialized technique. Affected or dead arms of the vine should be pruned out.",
+        "prevention": "Prevention focuses on good pruning practices. Make clean cuts and avoid pruning during heavy rain, which can spread fungal spores. Protect large pruning wounds with a sealant. Maintain overall vine health.",
+        "who_to_contact": "This is a serious disease. Consult a professional viticulture advisor or your local agricultural extension specialist for guidance on diagnosis and vine surgery techniques."
+    },
+    "Raspberry___healthy": {
+        "Description": "Great news! Your raspberry canes appear healthy. Look for strong, upright canes (primocanes and floricanes), lush green leaves, and the development of flowers and berries without spots or mold.",
+        "treatment_and_control": "No treatment is required for healthy raspberry plants. Focus on maintaining the conditions that allow them to thrive.",
+        "prevention": "To keep raspberries productive and disease-free: 1. Prune out old, fruited floricanes after harvest. 2. Thin primocanes to improve air circulation and sunlight penetration. 3. Trellis the canes to keep them off the ground. 4. Manage weeds and ensure good drainage.",
+        "who_to_contact": "For specific pruning instructions based on your raspberry type (summer-bearing vs. everbearing), consult your local nursery or agricultural extension office."
+    },
+    "Tomato___Leaf_Mold": {
+        "Description": "Leaf Mold is a fungal disease caused by Passalora fulva, primarily affecting greenhouse tomatoes. The initial symptom is pale green or yellowish spots on the upper leaf surface, with a distinctive olive-green to brownish, velvety mold growing on the corresponding lower leaf surface.",
+        "treatment_and_control": "Once present, leaf mold is difficult to control. Some fungicides can be effective, but reducing humidity is the most critical step. Remove and destroy infected lower leaves to slow the disease's progression.",
+        "prevention": "The key to prevention is reducing humidity and improving air circulation. Ensure adequate spacing between plants, prune lower leaves, and provide good ventilation in greenhouses. Avoid wetting the leaves when watering. Plant resistant varieties.",
+        "who_to_contact": "For greenhouse management techniques and resistant variety recommendations, contact your local agricultural extension office."
+    },
+    "Tomato___Spider_mites Two-spotted_spider_mite": {
+        "Description": "Spider Mites, particularly the Two-Spotted Spider Mite, are not insects but are more closely related to spiders. They are common pests on tomatoes, especially in hot, dry conditions. They feed by piercing plant cells, causing tiny yellow or white speckles on leaves (stippling). Fine webbing on the underside of leaves is a tell-tale sign of a heavy infestation.",
+        "treatment_and_control": "A strong jet of water can dislodge many mites. Insecticidal soaps and horticultural oils are effective but require thorough coverage, especially on the underside of leaves. For severe infestations, specific miticides may be necessary.",
+        "prevention": "Spider mites thrive in dry conditions, so maintaining adequate humidity can deter them. Regularly inspect the underside of leaves for early signs. Encourage natural predators like ladybugs and predatory mites.",
+        "who_to_contact": "For recommendations on miticides that are safe for vegetables and effective in your area, consult your local nursery or agricultural extension office."
+    },
+    "Pepper,bell__Bacterial_spot": {
+        "Description": "Bacterial Spot on peppers is caused by Xanthomonas bacteria and is one of the most destructive diseases for this crop. It causes water-soaked spots on leaves that later turn dark and may have a 'shot-hole' appearance. On fruit, it causes raised, scab-like spots.",
+        "treatment_and_control": "Control is very difficult. Copper-based bactericides can be used, but they are often not fully effective, especially in rainy weather. They primarily serve to protect healthy tissue. Avoid working in the fields when plants are wet.",
+        "prevention": "Planting resistant bell pepper varieties is the most effective management tool. Always use certified disease-free seed and transplants. Practice crop rotation for at least one year. Mulch to prevent soil splash.",
+        "who_to_contact": "Crucially, consult your local agricultural extension office or seed supplier for the best resistant varieties for your region."
+    },
+    "Corn_(maize)___healthy": {
+        "Description": "Looks great! Your corn plant is healthy. A healthy corn stalk is sturdy with broad, green leaves. It should be developing tassels and silks at the appropriate growth stage, and the ears should be filling out well.",
+        "treatment_and_control": "No treatment is needed. A healthy stand of corn is on track for a good harvest.",
+        "prevention": "To ensure a healthy corn crop: 1. Plant in well-fertilized soil, as corn is a heavy feeder, especially of nitrogen. 2. Ensure consistent watering, particularly during the critical silking and ear-fill stages. 3. Plant in blocks of at least four rows rather than a single long row to ensure good pollination. 4. Manage weeds to reduce competition for nutrients and water.",
+        "who_to_contact": "For advice on fertilization timing and pest management in your area, your local agricultural extension office is the best resource."
+    }
+}
+    
+    
+   
