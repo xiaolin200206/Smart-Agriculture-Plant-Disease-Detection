@@ -77,4 +77,6 @@ The structure in the Hugging Face repository is the final, deployment-optimized 
     python app.py
 
 ![2](https://github.com/user-attachments/assets/ffe32a1a-15f5-4546-a5bf-7f9ec838dcc5)
+![Screenshot 2025-09-20 151348](https://github.com/user-attachments/assets/77a07641-b419-4a7b-8e3e-77b3ced9d13b)
+
 
