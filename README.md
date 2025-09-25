@@ -1,4 +1,4 @@
-🌱 Plant Disease Classifier
+![Your paragraph text](https://github.com/user-attachments/assets/7cb25b53-64e0-46a6-903f-8329ebca4d4f)🌱 Plant Disease Classifier
 🚀[ Try the Live Demo on Hugging Face Spaces!](https://huggingface.co/spaces/xiaolinouo/plant-disease-classifier) 🚀
 
 (Please replace the link above with your final Hugging Face Space URL)
@@ -77,6 +77,7 @@ The structure in the Hugging Face repository is the final, deployment-optimized 
     python app.py
 
 ![2](https://github.com/user-attachments/assets/ffe32a1a-15f5-4546-a5bf-7f9ec838dcc5)
-![Screenshot 2025-09-20 151348](https://github.com/user-attachments/assets/77a07641-b419-4a7b-8e3e-77b3ced9d13b)
+
+![Your paragraph text](https://github.com/user-attachments/assets/3a44ab61-8f15-4b07-bf5f-b8d4955b7993)
 
 
