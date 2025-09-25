@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>植物病害检测结果</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2c5282;
+            --secondary-color: #28a745;
+            --background-color: #f7fafc;
+            --card-background: #ffffff;
+            --text-color: #4a5568;
+            --heading-color: #2d3748;
+            --border-color: #e2e8f0;
+        }
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+        .container {
+            background: var(--card-background);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            text-align: center;
+            max-width: 800px;
+            width: 100%;
+            border-top: 5px solid var(--primary-color);
+        }
+        h1 {
+            color: var(--heading-color);
+            font-size: 2.25rem;
+            margin-bottom: 20px;
+        }
+        .result-header {
+            font-size: 1.25rem;
+            color: var(--text-color);
+            margin-bottom: 10px;
+        }
+        .prediction-label {
+            font-size: 1.75rem;
+            color: var(--primary-color);
+            font-weight: 700;
+            padding: 10px 20px;
+            background-color: #ebf8ff;
+            border-radius: 8px;
+            display: inline-block;
+            margin-bottom: 30px;
+        }
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            text-align: left;
+        }
+        .uploaded-img-container, .solution-card {
+            background: #fdfdfd;
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+        .uploaded-img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+        .solution-card h3 {
+            font-size: 1.2rem;
+            color: var(--heading-color);
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--border-color);
+        }
+        .solution-card p {
+            margin: 0 0 15px 0;
+            line-height: 1.6;
+            color: var(--text-color);
+        }
+        a.button {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 12px 30px;
+            background-color: var(--secondary-color);
+            color: white;
+            font-weight: 500;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        a.button:hover {
+            background-color: #218838;
+            transform: translateY(-2px);
+        }
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>检测结果分析</h1>
+        <p class="result-header">预测的植物健康状况为:</p>
+        <p class="prediction-label">{{ label }}</p>
+
+        <div class="content-grid">
+            <div class="uploaded-img-container">
+                <h3>上传的图片</h3>
+                <<img src="{{ url_for('static', filename='uploads/' + image_filename) }}?v={{ secret_key }}" 
+     alt="Uploaded Image" class="uploaded-img">
+            </div>
+
+            <div class="solution-card">
+                {% if solution %}
+                    <!-- 关键修正：这里的 key 必须和你的 Solution.json 文件完全一致 -->
+                    <h3>📋 病害描述</h3>
+                    <p>{{ solution["Description"] }}</p>
+
+                    {% if solution["Symptoms"] is defined %}
+                    <h3>🧾 症状表现</h3>
+                    <p>{{ solution["Symptoms"] }}</p>
+                    {% endif %}
+
+                    <h3>🔬 治疗与控制</h3>
+                    <p>{{ solution["treatment_and_control"] }}</p>
+
+                    <h3>🛡️ 如何预防</h3>
+                    <p>{{ solution["prevention"] }}</p>
+
+                    <h3>📞 联系专家</h3>
+                    <p>{{ solution["who_to_contact"] }}</p>
+
+
+
+                {% else %}
+                    <p>太棒了！这是一个健康的植物，或者暂时没有找到该类别的解决方案信息。</p>
+                {% endif %}
+            </div>
+        </div>
+
+        <a class="button" href="{{ url_for('index') }}">上传另一张图片</a>
+    </div>
+</body>
+</html>

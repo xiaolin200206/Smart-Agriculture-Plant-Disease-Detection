@@ -1,0 +1,110 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Plant Disease Classifier</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 500px;
+            width: 90%;
+        }
+        h1 {
+            color: #1a1a1a;
+            margin-bottom: 25px;
+        }
+        /* Style the file input button */
+        input[type="file"] {
+            display: none; /* Hide the default ugly button */
+        }
+        .file-upload-label {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            margin: 20px 0;
+        }
+        .file-upload-label:hover {
+            background-color: #0056b3;
+        }
+        #file-name {
+            margin-top: 10px;
+            font-style: italic;
+            color: #555;
+        }
+        button {
+            padding: 12px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        button:hover {
+            background-color: #218838;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌱 Plant Disease Classifier</h1>
+        <form action="/predict" method="POST" enctype="multipart/form-data">
+            
+            <!-- We use a label to style our file input -->
+            <label for="file-input" class="file-upload-label">Choose Image</label>
+            
+            <!-- 
+              !! 关键修正 !!
+              将 name="image" 修改为 name="file" 
+              并添加一个 id 以便 label 可以控制它
+            -->
+            <input id="file-input" type="file" name="file" accept="image/*" required>
+            
+            <!-- Optional: Display the chosen file name -->
+            <div id="file-name">No file chosen</div>
+
+            <br><br>
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+
+    <script>
+        // JavaScript to show the selected file name
+        const fileInput = document.getElementById('file-input');
+        const fileNameDisplay = document.getElementById('file-name');
+
+        fileInput.addEventListener('change', function() {
+            if (fileInput.files.length > 0) {
+                fileNameDisplay.textContent = fileInput.files[0].name;
+            } else {
+                fileNameDisplay.textContent = 'No file chosen';
+            }
+        });
+    </script>
+</body>
+</html>
+
+
