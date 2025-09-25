@@ -1,4 +1,4 @@
-![Your paragraph text](https://github.com/user-attachments/assets/7cb25b53-64e0-46a6-903f-8329ebca4d4f)🌱 Plant Disease Classifier
+🌱 Plant Disease Classifier
 🚀[ Try the Live Demo on Hugging Face Spaces!](https://huggingface.co/spaces/xiaolinouo/plant-disease-classifier) 🚀
 
 (Please replace the link above with your final Hugging Face Space URL)
