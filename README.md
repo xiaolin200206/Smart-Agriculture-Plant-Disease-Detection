@@ -1,72 +1,77 @@
+🌱 Plant Disease Classifier
+🚀[ Try the Live Demo on Hugging Face Spaces!](https://huggingface.co/spaces/xiaolinouo/plant-disease-classifier) 🚀
+
+(Please replace the link above with your final Hugging Face Space URL)
 📌 Project Overview
 
-This project uses ResNet to classify plant leaf images into multiple categories (healthy and diseased).
-The goal is to provide farmers with an easy-to-use tool for early plant disease detection, which can help reduce crop loss.
+I have developed an end-to-end deep learning application designed to rapidly diagnose plant health from a single leaf image. The model can identify 38 different classes of plant diseases and healthy states, providing an easy-to-use tool for early disease detection for gardeners and farmers alike.
 
-Dataset: PlantVillage Dataset
+This project was more than just model training; it was a deep dive into the practical challenges of deployment. I troubleshooted and overcame several low-level technical hurdles in the PyTorch model quantization and deployment pipeline, such as state_dict mismatches and aten::add.out operator incompatibilities. Ultimately, I successfully packaged a high-performance PyTorch model into a stable, interactive web application.
+✨ Key Features & Highlights
 
-Framework: PyTorch
+    End-to-End Pipeline: Fully implemented the entire workflow from data augmentation and model fine-tuning (ResNet-50) to final web deployment using Flask.
 
-🚀 Features
+    High Accuracy: The original floating-point model achieved 99% accuracy on the PlantVillage dataset, ensuring reliable diagnoses.
 
-🌿 Classifies plant leaf images into 11 classes
+    Interactive Web App: Features a clean, user-friendly interface that allows users to easily upload an image and receive an instant diagnosis along with relevant solution information.
 
-🔍 Based on ResNet for robust image classification
+    Successfully Deployed: The project is live on Hugging Face Spaces, providing a public online demo that showcases my practical MLOps skills.
 
-📊 Trained on 160k+ images from PlantVillage
+    Future-Ready (RAG Integration): The next phase of the project is to integrate a RAG (Retrieval-Augmented Generation) system, upgrading the application from a simple "identification tool" to an "intelligent diagnostic expert" capable of more intelligent, contextual interactions.
 
-🖥️ Deployment-ready (Flask / Streamlit support)
+🛠️ Tech Stack
 
-⚡ Supports model optimization (pruning, quantization in future)
+    Backend: Python, PyTorch (for deep learning), Flask (for web server)
+
+    Model: Fine-tuned ResNet-50 pre-trained on ImageNet
+
+    Deployment: Docker, Hugging Face Spaces
+
+    Dataset: PlantVillage Dataset
 
 📂 Project Structure
-📁 plant-disease-detection
- ┣ 📂 dataset/            # dataset (not included in repo, link to Kaggle)
- ┣ 📂 models/             # trained model files (.pth)
- ┣ 📂 notebooks/          # Jupyter notebooks for training & testing
- ┣ 📂 app/                # Flask or Streamlit app
- ┣ 📄 requirements.txt    # dependencies
- ┣ 📄 README.md           # project documentation
- 
-⚙️ Installation
-# Clone the repository
-git clone https://github.com/yourusername/plant-disease-detection.git
-cd plant-disease-detection
 
-# Create virtual environment (optional but recommended)
-python -m venv venv
-source venv/bin/activate   # macOS/Linux
-venv\Scripts\activate      # Windows
+The structure in the Hugging Face repository is the final, deployment-optimized version:
 
-# Install dependencies
-pip install -r requirements.txt
+/
+├── app.py                     # Main Flask application
+├── best_model.pth             # The final, fine-tuned floating-point model
+├── class_names.json           # List of class names
+├── Solution.json              # Disease solution data
+├── Dockerfile                 # Hugging Face deployment configuration
+├── requirements.txt           # Python dependencies
+├── static/                    # Static files (CSS, JS, uploaded images)
+│   └── uploads/
+└── templates/                 # HTML templates
+    ├── index.html
+    └── result.html
 
-🧑‍💻 Usage
-1. Train the model
-python train.py
+⚙️ How to Run Locally
 
-2. Run inference
-python predict.py --image sample_leaf.jpg
+    Clone the repository:
 
-3. Deploy with Streamlit
-streamlit run app/app.py
+    git clone [https://github.com/](https://github.com/)[your-username]/[your-repo-name].git
+    cd [your-repo-name]
 
-📊 Results
+    (Please replace [your-username] and [your-repo-name])
 
-Accuracy: 99%
+    Create a virtual environment (recommended):
 
-Model: ResNet50 (pretrained on ImageNet, fine-tuned)
+    python -m venv venv
+    source venv/bin/activate  # On macOS/Linux
+    venv\Scripts\activate   # On Windows
 
-Training Time: about 2 hours on GPU
-![training curve](train_curve.png)
-![deploy_result](deploy_result.png)
+    Install dependencies:
 
-📌 Future Work
+    pip install -r requirements.txt
 
-✅ Add quantization & pruning for lightweight deployment
+    Download the model:
+    Due to its size, the model file is not included in the Git repository. Please download best_model.pth from the link below and place it in the project's root directory.
 
-✅ Collect local datasets for better generalization
+    Download Model (best_model.pth) from Google Drive：https://drive.google.com/file/d/1MgBPD5wfl_j3VyBDyShRfIGNcIyYgpH9/view?usp=drive_link
 
-🔜 Deploy to AWS (EC2 + S3)
+    Recommendation: For better version control and community access, consider uploading the model to the Hugging Face Hub in the future.
 
-Download link:https://drive.google.com/file/d/1VKVLtOiuy8XgROLky_WoevOwEJudC3zw/view?usp=drive_link
+    Run the Flask application:
+
+    python app.py
